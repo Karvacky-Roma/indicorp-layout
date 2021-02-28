@@ -129,6 +129,10 @@ img {
   max-width: 100%;
 }
 
+.vis-hid {
+  visibility: hidden;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -444,6 +448,18 @@ body {
 
 .content-service__item_2 {
   background: url("../img/service/list-icons/02.svg") 0 0 no-repeat;
+}
+
+.clients__section {
+  padding-top: 58px;
+  padding-bottom: 78px;
+}
+
+.clients__row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 50px;
+  align-items: center;
 }
 
 /*FOOTER*/
