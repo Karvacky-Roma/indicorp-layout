@@ -125,6 +125,10 @@ h6 {
   color: #737373;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -291,7 +295,7 @@ body {
 .advantages__advantages {
   background: #FAFAFA;
   padding-top: 110px;
-  padding-bottom: 80;
+  padding-bottom: 80px;
 }
 
 .advantages__title {
@@ -343,6 +347,103 @@ body {
   color: #737373;
   text-transform: uppercase;
   margin-top: 10px;
+}
+
+.service__service {
+  padding: 100px 0;
+}
+
+.service__title {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 461px;
+}
+
+.service__text {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 511px;
+}
+
+.service__row {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-column-gap: 121px;
+}
+
+.service__video {
+  position: relative;
+  width: 100%;
+  height: 442px;
+  background: url("../img/service/img.png") 0 0/cover no-repeat;
+}
+
+.service__video a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.service__video span {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #00A0C1;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  margin-right: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service__video span::before {
+  content: '';
+  border: 15px solid transparent;
+  border-left: 20px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -15px;
+}
+
+.content-service__title {
+  line-height: 57px;
+  max-width: 324px;
+}
+
+.content-service__text {
+  margin-top: 10px;
+  max-width: 330px;
+}
+
+.content-service__list {
+  margin-top: 50px;
+}
+
+.content-service__item {
+  margin-top: 40px;
+  padding-left: 51px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252B42;
+}
+
+.content-service__item_1 {
+  background: url("../img/service/list-icons/01.svg") 0 0 no-repeat;
+}
+
+.content-service__item_2 {
+  background: url("../img/service/list-icons/02.svg") 0 0 no-repeat;
 }
 
 /*FOOTER*/
