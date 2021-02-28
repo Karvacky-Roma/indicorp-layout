@@ -4,7 +4,7 @@
 
 // Variables <================================================================================>
 
-$maxWidth: 1280;
+$maxWidth: 1200;
 $md2: 767px;
 
 // Main styles <================================================================================>
@@ -13,7 +13,8 @@ $md2: 767px;
 @import '_fonts.scss';
 
 body{
-	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 }
 
 // Header <================================================================================>
@@ -23,7 +24,62 @@ body{
 // Сontent <================================================================================>
 
 
+.main-section {
+	background: url('../img/main-section-bg.jpg') 0 0/cover no-repeat;
+	&__main-section{
+		padding: 184px 0;
+	}
+	&__title {
+		max-width: 509px;
+		font-weight: 800;
+		font-size: 58px;
+		line-height: 80px;
+		letter-spacing: 0.2px;
+		color: #252B42;
+	}
+	&__text {
+		max-width: 376px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 30px;
+		letter-spacing: 0.2px;
+		color: #737373;
 
+		margin-top: 35px;
+	}
+
+	&__links {
+		display: flex;
+
+		margin-top: 35px;
+		font-weight: 700;
+		letter-spacing: 0.2px;
+		font-size: 14px;
+	}
+
+	&__link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		padding: 10px 36px;
+
+		border-radius: 37px;
+	}
+
+	&__link-first {
+		min-height: 48px;
+		min-width: 185px;
+
+		background: #FFA62B;
+		color: #fff;
+	}
+	&__link-second {
+		border: 2px solid #00A0C1;
+		color: #00a0c1;
+		margin-left: 20px;
+	}
+}
 
 
 // Footer <================================================================================>
