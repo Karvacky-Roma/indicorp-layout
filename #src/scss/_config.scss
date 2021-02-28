@@ -16,7 +16,16 @@
 	flex: 1 1 auto;
 }
 
-.btn{
-	display: inline-block;
-	transition: 0.3s;
+.title{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 57px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+.text{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #737373;
 }

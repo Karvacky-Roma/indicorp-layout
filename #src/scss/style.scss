@@ -95,6 +95,7 @@ body{
 	&__item {
 	}
 }
+
 .item-features {
 	background-color: #fff;
 	padding: 35px 40px;
@@ -127,6 +128,64 @@ body{
 		&--active{
 			color: #fff;
 		}
+	}
+}
+
+
+// <================================================================================>
+
+
+.advantages {
+	&__advantages {
+		background: #FAFAFA;
+		padding-top: 110px;
+		padding-bottom: 80;
+	}
+	&__title {
+		text-align: center;
+		margin: 0 auto;
+		max-width: 323px;
+	}
+	&__text {
+		text-align: center;
+		margin: 0 auto;
+		max-width: 511px;
+	}
+	&__row {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-column-gap: 38px;
+		grid-row-gap: 38px;
+
+		margin-top: 50px;
+	}
+	&__item {
+		text-align: center;
+	}
+}
+
+.item-advantages {
+	padding: 30px 40px;
+	background-color: #fff;
+	&__icon {
+		width: 47px;
+		height: 40px;
+		margin: 0 auto 20px;
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 57px;
+		color: #252B42;
+	}
+	&__text {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 24px;
+		color: #737373;
+		text-transform: uppercase;
+
+		margin-top: 10px;
 	}
 }
 
