@@ -1,3 +1,10 @@
-// if you need slick slider uncomment this cat
+let headerList   = document.querySelector('.header__list');
+	 headerBurger = document.querySelector('.header__burger')
+	 body         = document.querySelector('body');
 
-// @@include('slick.min.js') 
+headerBurger.addEventListener('click', function(e){
+	e.preventDefault();
+	headerList.classList.toggle('header--active');
+	headerBurger.classList.toggle('header--active');
+	header.classList.toggle("header--active");
+});
