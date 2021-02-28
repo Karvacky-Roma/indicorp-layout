@@ -10,8 +10,19 @@
 
 	& .container{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 405px;
+		grid-template-columns: repeat(4, 1fr) 405px;
 		grid-gap: 15px;
+
+		@media (max-width: 950px) {
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 50px;
+		}
+		@media (max-width: 646px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media (max-width: 400px) {
+			grid-template-columns: repeat(1, 1fr);
+		}
 	}
 
 	&__item {
@@ -62,6 +73,7 @@
 		justify-content: space-between;
 		align-items: center;
 		min-height: 74px;
+		flex-wrap: wrap;
 	}
 	
 	&__copyright {
