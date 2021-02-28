@@ -473,6 +473,45 @@ body{
 	}
 }
 
+// <================================================================================>
+
+
+.contact {
+	&__section {
+		padding: 40px 0;
+	}
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__content {
+	}
+	&__title {
+		font-size: 28px;
+	}
+	&__text {
+		margin-top: 10px;
+	}
+	&__link {
+		a{
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 28px;
+			color: #FFFFFF;
+
+			min-height: 58px;
+			min-width: 160px;
+			background-color: #FFA62B;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}
+
+
 
 // Footer <================================================================================>
 

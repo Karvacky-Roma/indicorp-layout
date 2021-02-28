@@ -623,4 +623,35 @@ body {
   border-color: #fff;
 }
 
+.contact__section {
+  padding: 40px 0;
+}
+
+.contact__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__title {
+  font-size: 28px;
+}
+
+.contact__text {
+  margin-top: 10px;
+}
+
+.contact__link a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  min-height: 58px;
+  min-width: 160px;
+  background-color: #FFA62B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*FOOTER*/
