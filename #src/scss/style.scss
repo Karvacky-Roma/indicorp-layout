@@ -27,7 +27,7 @@ body{
 .main-section {
 	background: url('../img/main-section-bg.jpg') 0 0/cover no-repeat;
 	&__main-section{
-		padding: 184px 0;
+		padding: 184px 0 40px;
 	}
 	&__title {
 		max-width: 509px;
@@ -80,6 +80,56 @@ body{
 		margin-left: 20px;
 	}
 }
+
+// <================================================================================>
+
+.features {
+	&__row {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 30px;
+		grid-row-gap: 30px;
+
+		margin-top: 80px;
+	}
+	&__item {
+	}
+}
+.item-features {
+	background-color: #fff;
+	padding: 35px 40px;
+	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+	&--active{
+		background-color: #00A0C1;
+	}
+	&__icon{
+		width: 47px;
+		height: 40px;
+	}
+	&__title {
+		color: #252B42;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 32px;
+
+		margin-top: 13px;
+		&--active{
+			color: #fff;
+		}
+	}
+	&__text {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		color: #737373;
+		margin-top: 10px;
+
+		&--active{
+			color: #fff;
+		}
+	}
+}
+
 
 
 // Footer <================================================================================>
